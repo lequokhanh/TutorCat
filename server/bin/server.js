@@ -24,7 +24,7 @@
  
  const io = new Server(server, {
    cors: {
-     origin: [process.env.clientI, process.env.clientII]
+     origin: "*"
    }
  });
  
